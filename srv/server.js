@@ -8,7 +8,7 @@ var logger = require("winston");
 var switchService = require("./service/switchService.js")
 var statusService = require("./service/statusService.js")
 
-const SERVER_PORT = 5555;
+const SERVER_PORT = (process.env.API_PORT==undefined ? 5555 : process.env.API_PORT);
 
 var convert = function(numberInHex) {
     return parseInt(numberInHex, 16).toString(10);
