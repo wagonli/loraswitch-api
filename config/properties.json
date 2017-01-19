@@ -1,0 +1,5 @@
+{
+    "lom.uri": "https://lpwa.liveobjects.orange-business.com/",
+    "lom.mqtt.uri": "tcp://liveobjects.orange-business.com:1883",
+    "server.contextPath": "/"
+}
